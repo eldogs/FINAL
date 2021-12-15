@@ -1,0 +1,44 @@
+body{
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.about-text2 {
+    font-family: calibri;
+    width: 50%;
+}
+
+.about-text2 button {
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color: white;
+		
+		
+}
+
+.about-text2 button:hover {
+        background-color: #800020;
+        transition: all ease 0.3s;
+}
+
+}
+
+.header{
+	padding-left: 170px;
+	margin: 10px;
+}
+
+.header h1{
+	font-family: Arial;
+	font-size: 80px
+	color:  white;
+}
+
+.ako{
+	width: 250px;
+	height: 250px;
+}
+

@@ -1,0 +1,198 @@
+body{
+ background-image: url("sunset.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#ct{
+  color: black;
+  font-size: 20px;
+  border: solid;
+  width: 350px;
+  background-color: white;
+}
+.box{
+  width: 500px;
+  background-color: transparent;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  color: black;
+  font-family: 'Arial',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 20px 40px; 
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: black;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+h4 {
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    width: max-content;
+
+}
+
+h4::before, h4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h4::before {
+    background: #112240;
+    animation: typewriter 2s steps(15) .500ms forwards;
+}
+
+h4::after {
+    width: 0.125em;
+    background: #64ffda;
+    animation: typewriter 2s steps(15) .500ms forwards,
+    blink 700ms steps(15) infinite;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+
+}
+
+@keyframes blink {
+    to {
+        background-color: transparent;
+    }
+}
+
+
+nav {
+    text-transform: uppercase;
+    position: sticky;
+    margin: 10px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    z-index: 1;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+.nav-links ul li a:hover,
+active{
+    background-color:#292929;
+    color: #FFFFFF !important;
+    font-weight: 10;
+    text-decoration: none;
+    transition: all ease 0.4s;}
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.contact-section{
+  background: url(profile-4.jpg);
+  background-size: cover;
+  padding: 70px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+
+
+
